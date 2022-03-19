@@ -11,7 +11,7 @@ class ProductItem extends Component {
                 <img className="img-fluid img-thumbnail" src={thumbnail} alt="" />
                 <p className="mt-2">{productName}</p>
                 <p className="title text-right">{unitPrice} THB</p>
-                <button className="btn btn-block btn-secondary title">ซื้อ</button>
+                <button className="btn btn-block btn-secondary title" value={unitPrice} onClick={(e) => console.log(e.target.value)}>ซื้อ</button>
                 <hr />
             </div>
          )

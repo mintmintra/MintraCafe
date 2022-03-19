@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ProductList from "../product/ProductList";
 import Calculator from './Calculator';
 class Monitor extends Component{
+    
     render() {
         return (
             <div className="container-fluid">
