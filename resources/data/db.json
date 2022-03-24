@@ -37,5 +37,65 @@
       "thumbnail": "/images/product/6.jpg"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "orderedDate": "2022-03-24T20:37:26.555Z",
+      "totalPrice": 410,
+      "orders": [
+        {
+          "product": {
+            "productId": "P001",
+            "productName": "สลัดผัก",
+            "unitPrice": "120",
+            "thumbnail": "/images/product/1.jpg"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "productId": "P002",
+            "productName": "ไก่ทอด",
+            "unitPrice": "90",
+            "thumbnail": "/images/product/2.jpg"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "productId": "P003",
+            "productName": "บิงซู",
+            "unitPrice": "200",
+            "thumbnail": "/images/product/3.jpg"
+          },
+          "quantity": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "orderedDate": "2022-03-24T21:00:39.789Z",
+      "totalPrice": 260,
+      "orders": [
+        {
+          "product": {
+            "productId": "P001",
+            "productName": "สลัดผัก",
+            "unitPrice": "120",
+            "thumbnail": "/images/product/1.jpg"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "productId": "P006",
+            "productName": "กาแฟ เฮลตี้ฟู้ด",
+            "unitPrice": "140",
+            "thumbnail": "/images/product/6.jpg"
+          },
+          "quantity": 1
+        }
+      ],
+      "id": 2
+    }
+  ]
 }
