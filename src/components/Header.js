@@ -27,7 +27,7 @@ class Header extends Component{
         return (
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-md-8 text-left">
+                    <div className="col-md-8 text-left mt-4">
                         <h1 className="text-dark"><img src="/images/logo/logo.png" alt=""/> Mintra Cafe</h1>
                     </div>
                     <div className="col-md-4 text-right">
